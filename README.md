@@ -11,13 +11,7 @@ Requirements:
 - Install dependencies:
     pip install python-telegram-bot==13.19 pymongo openai requests
 
-Environment variables:
-- BOT_TOKEN       (required) - Telegram token from @BotFather
-- MONGO_URI       (optional) - MongoDB Atlas connection string for persistent history
-- OPENAI_API_KEY  (optional) - to enable AI question generation
-- QUESTIONS_FILE  (optional) - path to questions.json (default 'questions.json')
-- DEFAULT_LANG    (optional) - 'en' or 'hi' (default 'en')
-- ADMIN_IDS       (optional) - comma separated admin ids/usernames (default '@RitsamHub')
+Environment variables:https://github.com/TheDX2121/RitsamQuizBot2.O/blob/main/.env.example
 
 How to run locally:
 1. Create a virtualenv and install requirements.
