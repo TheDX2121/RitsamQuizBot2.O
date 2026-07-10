@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  functions = "functions"
+
+# optional redirect for Netlify Forms success page
+[[redirects]]
+  from = "/contact-success"
+  to = "/"
+  status = 200
